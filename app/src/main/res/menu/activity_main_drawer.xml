@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/iconic">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_art"
+            android:icon="@drawable/iconic"
+            android:title="Artists" />
+
+    </group>
+
+    <item android:title="Play Music">
+        <menu>
+            <item
+                android:id="@+id/nav_sdcard"
+                android:icon="@drawable/daso"
+                android:title="SDCARD" />
+            <item
+                android:id="@+id/nav_soundcloud"
+                android:icon="@drawable/sound"
+                android:title="SoundCloud" />
+            <item
+                android:id="@+id/nav_you"
+                android:icon="@drawable/you"
+                android:title="Youtube" />
+            <item
+                android:id="@+id/nav_mdundo"
+                android:icon="@drawable/iconic"
+                android:title="Mdundo" />
+
+
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_radio"
+        android:icon="@drawable/radio"
+        android:title="Radio" />
+    </group>
+
+    <item android:title="Connect">
+        <menu>
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/fb"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/nav_tweet"
+                android:icon="@drawable/twitter"
+                android:title="Twitter" />
+            <item
+                android:id="@+id/nav_ig"
+                android:icon="@drawable/igg"
+                android:title="Instagram" />
+
+
+
+        </menu>
+    </item>
+
+</menu>

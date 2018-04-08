@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "com.example.Here"
+
+repositories{
+ maven{
+
+     url "http://dl.bintray.com/africastalking/java"
+ }
+
+}
+
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.africastalking:server:3.0.6'
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
